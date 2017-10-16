@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'/>
+  <title> Section 3 html Project</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown"><a href="" class ="dropbtn">Events</a>
+        <div class ="dropdown-content">
+          <a href="food_drink.html">Food and Drink Festival</a>
+          <a href="ironman.html">Bolton Ironman</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <h1>Visit Bolton</h1>
+  <div class="welcome">
+    <h2>Welcome to Bolton! </h2>
+    <p>From top sport to great music and everything inbetween there's something for the whole family to enjoy in Bolton.</p>
+    <p>Check out some of the upcoming activities below and pay us a visit!</p>
+  </div>
+
+<div class="slideshowContainer">
+  <div class="mySlides">
+    <a href="food_drink.html">
+    <img src="http://assets.gcstatic.com/u/apps/asset_manager/uploaded/2013/32/bolton-food-and-drink-festival-1376321325-custom-0.jpeg" style="width:100%">
+    </a>
+  </div>
+  <div class="mySlides">
+    <a href="ironman.html">
+    <img src="http://thelegacy-rainbowhouse.com/wp-content/uploads/2016/09/Iron-Man.jpg" style="width:100%">
+  </a>
+  </div>
+
+  <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+  <a class="next" onclick="changeSlide(1)">&#10095;</a>
+</div>
+<br>
+
+  <div class="row">
+    <div class="column">
+      <h2>Bolton Food and Drink Festival</h2>
+      <p>Drop into Bolton this August Bank Holiday Weekend for a taste of the North West's biggest and best food and drink festival.
+         With cookery demos from some of the best chefs around, almost 200 food, drink, arts and crafts traders, special events,
+          great family friendly entertainment, world class street theatre and loads of live music, its not to be missed! For more
+           info and to book tickets go to www.boltonfoodanddrinkfestival.com!</p>
+    </div>
+    <div class="column">
+      <h2>Ironman - Bolton</h2>
+      <p>Experience the fantastic atmosphere and support the awe inspiring athletes in their quest to become an 'Ironman'!
+        The breathtaking course consists of a 2.4 mile, a 112 mile bicycle ride and a marathon 26.22 mile run, raced in that order without a break.
+        Its a spectator friendly course and you can watch the athletes swim at Pennington Flash from 6.30am,
+        cycle around Bolton from 10am and finish with the marathon on Le Mans Crescent from 2pm onwards.</p>
+    </div>
+    <div class="column">
+      <a class="twitter-timeline" href="https://twitter.com/VisitBolton?ref_src=twsrc%5Etfw" data-height="500" data-width="500">Tweets by VisitBolton</a>
+    </div>
+  </div>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js'></script>
+  <script src='js/main.js'></script>
+</body>
+</html>

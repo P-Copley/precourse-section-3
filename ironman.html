@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Bolton Food and Drink</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/ironman.css" />
+</head>
+
+<body>
+  <div class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown"><a href="" class ="dropbtn">Events</a>
+        <div class ="dropdown-content">
+          <a href="food_drink.html">Food and Drink Festival</a>
+          <a href="ironman.html">Bolton Ironman</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="welcome" id="ironman">
+    <h2>Ironman - Bolton</h2>
+    <p>Dubbed one of the UK's friendliest towns, Bolton has something for everyone in the IRONMAN family. Athletes can take a nature walk with the kids, go shopping, and dine in cozy pubs and restaurants as they prepare for race day.
+        The beautiful lake swim takes place in Pennington Flash. There are numerous viewing opportunities for spectators at the start and T1.</p>
+    <p>Cyclists will embark on a 112-mile, two-loop journey from Pennington Flash and onto the breathtaking Lancashire countryside.
+        The bike course includes the famous Sheep House Lane climb twice where spectators can get up close and personal with the athletes in true Tour de France style.
+        The run begins at T2 at the Macron Stadium and athletes will head into Bolton town centre, where they complete three loops of a circuit before finishing in Le Mans Crescent in the shadow of the Albert Hall.
+      </p>
+    <p> IRONMAN UK offers 40 qualifying slots for the 2018 edition of the IRONMAN World Championship in Kailua-Kona, Hawaii.
+      </p>
+  </div>
+
+<div class="row" style="margin-top:50px">
+  <div class ="imgcol">
+    <img src="https://www.visitmanchester.com/imageresizer/?image=%2fdmsimgs%2fslideshow_extended_9_1157279870.jpg&action=ProductDetail" onclick="openModal(); currentSlide(1)">
+  </div>
+  <div class ="imgcol">
+    <img src="http://www.theboltonnews.co.uk/resources/images/3693037.jpg?display=1&htype=0&type=responsive-gallery" onclick="openModal(); currentSlide(2)">
+  </div>
+  <div class ="imgcol">
+    <img src="http://www.triathlonscotland.org/wp-content/uploads/2016/03/2015-IM-Bolton.jpg" onclick="openModal(); currentSlide(3)">
+  </div>
+  <div class ="imgcol">
+    <img src="https://www.familiesonline.co.uk/images/default-source/local/bolton/in-the-know-images/ironman-2017-map.jpg?sfvrsn=9fabb79e_0" onclick="openModal(); currentSlide(4)">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+      <div class="mySlides">
+        <img src="https://www.visitmanchester.com/imageresizer/?image=%2fdmsimgs%2fslideshow_extended_9_1157279870.jpg&action=ProductDetail" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <img src="http://www.theboltonnews.co.uk/resources/images/3693037.jpg?display=1&htype=0&type=responsive-gallery" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <img src="http://www.triathlonscotland.org/wp-content/uploads/2016/03/2015-IM-Bolton.jpg" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <img src="https://www.familiesonline.co.uk/images/default-source/local/bolton/in-the-know-images/ironman-2017-map.jpg?sfvrsn=9fabb79e_0" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+<script src="js/ironman.js"></script>
+</body>
+</html>
